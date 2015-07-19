@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This simple website is designed to be an engineering notebook of sorts. Not really a blog but more of a place to write engineering notes or various ideas that are helpful to me and perhaps others.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The website is built by Aaron S. West using [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com).
