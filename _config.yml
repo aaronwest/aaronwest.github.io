@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 # Your website URL (e.g. http://aaronwest.github.io or http://www.aaronwest.net)
 # Used for Sitemap.xml and your RSS feed
-url: http://aaronwest.github.io
+url: http://notebook.aarownest.net
 twitter_username: awest
 github_username:  aaronwest
 timezone: America/Chicago
