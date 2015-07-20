@@ -2,7 +2,7 @@
 layout: post
 title:  "Flushing DNS Cache on Mac OS X"
 date:   2010-11-30 4:43 PM
-tags: cli, "os x"
+tags: [cli, os x]
 ---
 Below are the various Bash commands needed to flush DNS on Mac OS X. There are several different versions of the commands depending on which version of OS X in use. Ensure you are selecting the command appropriate for your OS. HT to [OSXDaily](http://osxdaily.com/2014/11/20/flush-dns-cache-mac-os-x/) for additional explanations on what is happening under the covers.
 
