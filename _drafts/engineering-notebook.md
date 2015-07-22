@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Engineering Notebook"
-date:   2015-07-xx 8:07 AM
+date:   2015-07-31 8:07 AM
 tags:
 ---
 
