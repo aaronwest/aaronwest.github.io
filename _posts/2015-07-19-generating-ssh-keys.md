@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generating SSH Keys on Mac OS X"
-date:   2015-01-09 4:41 PM
+date:   2015-07-19 4:41 PM
 tags: [cli, os x]
 ---
 Generating an SSH key without a password. For example, for passphraseless old school Hadoop clusters. This is generally done from within a users home directory such as /Users/username on Mac.
