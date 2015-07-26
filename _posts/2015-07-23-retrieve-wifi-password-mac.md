@@ -4,7 +4,7 @@ title:  "How to Retrieve Your Wi-Fi Password on Mac"
 date:   2015-07-23 8:00 AM
 tags: [cli, os x]
 ---
-I don't generally forget the password for Wi-Fi networks I connect to, mainly because I use [1Password](http://www.1password.com) to store all secrets. But, I ran across the ability to retrieve the password, in plain text, from the OS X Keychain of an SSID I've previously connected with. Not a huge amount of utility to this but it's interesting the capability exists.
+I don't generally forget the password for Wi-Fi networks I use, mainly because I use [1Password](http://www.1password.com) to store all secrets. But, I ran across the ability to retrieve the password, in plain text, from the OS X Keychain of an SSID I've previously connected with. Not a huge amount of utility to this but it's interesting the capability exists.
 
 In the command below I read the the keychain and hone in on just the password portion. Replace `<SSID_NAME>` with the name of of a valid SSID you've connected with in the past. Keep in mind case sensitivity matters. You can leave off `| grep password` and retrieve the whole item too. This command requires authentication so you'll be asked to enter your username and password.
 
