@@ -6,7 +6,7 @@ permalink: /about/
 ## About this website
 This simple website is designed to be an engineering notebook of sorts. It's not really a blog but more of a place to write engineering notes or various ideas that are helpful to me and perhaps others. I was inspired by the work of [Carl Boettigger](http://www.carlboettiger.info/2012/09/28/Welcome-to-my-lab-notebook.html) and [Mark E. Madsen](http://notebook.madsenlab.org/labnotebook.html) and created something similar.
 
-The website is created and managed using [Jekyll](http://jekyllrb.com/) and hosted for free on [GitHub Pages](https://pages.github.com). If you encounter any issues or you have suggestions for ways I can improvement the site please [file an issue here](https://github.com/aaronwest/aaronwest.github.io/issues).
+The website is created and managed using [Jekyll](http://jekyllrb.com/) and hosted for free on [GitHub Pages](https://pages.github.com). If you encounter any issues or you have suggestions for ways I can improvement the site please [file an issue here](https://github.com/aaronwest/aaronwest.github.io/issues). Website monitoring is done through Uptime Butler and there's a public uptime history [here](https://uptimebutler.com/checkpublic/93c7edbf21f47936b892f16f).
 
 ## About me
 
