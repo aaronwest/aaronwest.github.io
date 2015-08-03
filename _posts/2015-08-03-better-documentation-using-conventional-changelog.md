@@ -33,7 +33,7 @@ Here's a full list of benefits I see in using `conventional-changelog`:
 
 Here's a screenshot of a CHANGELOG.md I generated while testing. Other, real-world examples include [Karma Runner](https://github.com/karma-runner/karma/blob/master/CHANGELOG.md) and [AngularJS](https://github.com/angular/angular/blob/master/CHANGELOG.md).
 
-![changelog screenshot]({{ site.url }}/images/posts/2015-08-03/changelog-screenshot)
+![changelog screenshot]({{ site.url }}/images/posts/2015-08-03/changelog-screenshot.png)
 
 The formatting of commit messages includes having a *header*, a *body*, and a *footer*. The header has a deeper format which includes a *type*, a *scope* and a *subject*. There are a number of flavors of this convention being followed today. Rather than discuss a specific one you can [research them yourself](https://github.com/ajoslin/conventional-changelog/tree/master/conventions).
 
