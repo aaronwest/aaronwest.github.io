@@ -2,7 +2,7 @@
 layout: post
 title:  "Better Documentation Using Conventional-Changelog"
 date:   2015-08-03 12:45 PM
-tags:
+tags: [documentation]
 ---
 One of the things I've been playing with at work is `conventional-changelog` and the concept of generating a CHANGELOG.md for most projects. We've double-downed our effort to create more and better documentation and as part of the effort I researched ways to generate documentation automatically and have said documentation be as close to the code as possible.
 
