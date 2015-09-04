@@ -10,6 +10,8 @@ I was able to get my YubiKey Edge working with [GitHub Fwo-factor Authentication
 
 Next, I went back to github.com and copied the text version of the QR code secret key and pasted it into the _Secret key (base32)_ field in the YubiKey Authenticator app. I selected the _Slot 2_ radio button, ticked the box for _Require touch_, ensured _Number of digits_ was set to 6 and pressed Ok. This wrote the configuration to Slot 2 on my YubiKey Edge.
 
+![YubiKey new credential]({{ site.url }}/images/posts/2015-09-04/yubikey-authenticator-new-credential.png)
+
 With the configuration written to my device I was able to touch the YubiKey Edge button to generate a code, copy the code to my clipboard, and paste it on github.com completing the two-factor set up process. After I did that I signed out of GitHub and walked through the sign-in process a few times to make sure everything was working. After entering a valid username/password combo on GitHub the site asks for an authentication code. I simply switched to the YubiKey Authenticator OS X app, pressed the device button to generate a code, and then used the clipboard icon in the app to copy the code. Switching back to my browser I pasted the code and was logged in.
 
 One big downside to setting up authentication on GitHub with a YubiKey Edge is logging into the website on your mobile device. When you are out of the office or otherwise away from your computer you won't be able to log into the site using your YubiKey Edge. Instead, you must generate a backup SMS message or use a backup authentication code you've stored elsewhere.
