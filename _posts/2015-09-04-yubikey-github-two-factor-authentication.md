@@ -4,7 +4,7 @@ title:  "YubiKey and GitHub Two-factor Authentication"
 date:   2015-09-04 2:50 PM
 tags: [security, yubikey, github]
 ---
-I was able to get my YubiKey Edge working with [GitHub Fwo-factor Authentication](https://github.com/blog/1614-two-factor-authentication) recently. On github.com I went through the two-factor setup and selected the authentication app option. When I got to the screen with the QR code I launched the YubiKey Authenticator app on Mac OS X Yosemite (10.10.x) and plugged in my YubiKey Edge. I then chose the _File -> Add_ option in the menubar. I actually had to click back and forth between the YubiKey Authenticator icon in the Dock and any other app icon in order to get the YubiKey Authenticator menu to show in the menubar on OS X. Once it was displayed I could click _File -> Add_.
+I was able to get my YubiKey Edge working with [GitHub Two-factor Authentication](https://github.com/blog/1614-two-factor-authentication) recently. On github.com I went through the two-factor setup and selected the authentication app option. When I got to the screen with the QR code I launched the YubiKey Authenticator app on Mac OS X Yosemite (10.10.x) and plugged in my YubiKey Edge. I then chose the _File -> Add_ option in the menubar. I actually had to click back and forth between the YubiKey Authenticator icon in the Dock and any other app icon in order to get the YubiKey Authenticator menu to show in the menubar on OS X. Once it was displayed I could click _File -> Add_.
 
 ![YubiKey menubar]({{ site.url }}/images/posts/2015-09-04/yubikey-authenticator-menubar.png)
 
