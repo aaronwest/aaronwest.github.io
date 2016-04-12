@@ -14,7 +14,7 @@ I found a solution but it wasn't something offered by GitHub natively.
 
 The first step is to export the labels in an existing repo. I found some [JavaScript code](https://gist.github.com/MoOx/93c2853fee760f42d97f) that did this. The code is also below. To use it I navigated to a repo with the labels already configured like I wanted. Then I opened the JS console, pasted the code below, and ran it. This created a JSON data set in the console which I copied into a new file called `github-labels.json` on my Mac.
 
-```javascript
+~~~javascript
 var labels = [];
 [].slice.call(document.querySelectorAll(".label-link"))
 .forEach(function(element) {
@@ -32,7 +32,7 @@ var labels = [];
   })
 })
 console.log(JSON.stringify(labels, null, 2))
-```
+~~~
 
 ## Install `github-labels` package via NPM
 
@@ -40,9 +40,9 @@ Next, I used a tool called [`git-labels`](https://github.com/popomore/github-lab
 
 Install `git-labels` as a global NPM module.
 
-```bash
+~~~bash
 npm install -g github-labels
-```
+~~~
 
 With `git-labels` installed there are two choices for importing labels into an existing repo. You can read from the saved JSON file and append to an existing label set or you can overwrite all the labels in the repo. For my use case, the overwrite method provided exactly what I needed.
 
@@ -50,12 +50,12 @@ Change the path and filename to your JSON file, `user` with your GitHub username
 
 _Add labels from JSON to existing GitHub labels (no overwrite)_
 
-```bash
+~~~bash
 labels -c /path/to/github-labels.json user/repo
-```
+~~~
 
 _Overwrite all existing GitHub labels with labels from JSON file_
 
-```bash
+~~~bash
 labels -c /path/to/github-labels.json -f user/repo
-```
+~~~

@@ -8,8 +8,8 @@ I don't generally forget the password for Wi-Fi networks I use, mainly because I
 
 In the command below I read the the keychain and hone in on just the password portion. Replace `<SSID_NAME>` with the name of of a valid SSID you've connected with in the past. Keep in mind case sensitivity matters. You can leave off `| grep password` and retrieve the whole item too. This command requires authentication so you'll be asked to enter your username and password.
 
-```bash
+~~~bash
 security find-generic-password -ga <SSID_NAME> | grep password
-```
+~~~
 
 There's lots more the `security` program can do. Read the man pages and you'll see a list of available commands such as: `create-keypair`, `add-generic-password`, `list-keychains`.
