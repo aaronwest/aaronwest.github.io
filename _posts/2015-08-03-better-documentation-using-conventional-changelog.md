@@ -52,7 +52,7 @@ There are likely several ways you can go about incorporating `conventional-chang
 
 More detail is provided in the `conventional-changelog` README, but here's the basics of installing and using `conventional-changelog`.
 
-```bash
+~~~bash
 # Install the tool using npm. Since it's a CLI tool you must install with -g
 npm install -g conventional-changelog
 
@@ -60,4 +60,4 @@ npm install -g conventional-changelog
 
 # Generate CHANGELOG.md using the AngularJS convention
 conventional-changelog -o CHANGELOG.md -p angular -v
-```
+~~~

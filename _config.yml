@@ -24,11 +24,6 @@ defaults:
     values:
       author: "Aaron S. West"
 
-# Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
-
 # Includes an icon in the footer for each username you enter
 # ASW: Jul 18, 2015, 7:13 PM
 # Footer links aren't being used as this code came from Jekyll Now. One day perhaps.
@@ -53,20 +48,6 @@ disqus: aaronsengineeringnotebook
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-3548918-9
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-#markdown: redcarpet
-highlighter: pygments
-#permalink: /:title/
-
-# The release of Jekyll Now that you're using
-# version: v1.1.0
-
-# Set the Sass partials directory, as we're using @imports
-#sass:
-#  style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:
