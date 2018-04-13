@@ -68,7 +68,7 @@ The YubiKey Authenticator application is supposed to be used in conjunction with
 
 ## Summary
 
-I'm happy with the YubiKey Edge so far. At $30 it's hard not to be. But I have been wondering if I should've gone with the NEO. While I don't care for the NFC support I have thought about uses for the OpenPGP support. The NEO also appears to have less limitations with it comes to OATH/HOTP/TOTP. Since it has better integration with OATH/HOTP/TOTP and YubiKey Authenticator you're apparently not limited to slot 1 and slot 2. I haven't looked into this fully so I may be wrong. But it's something I want to check out and see if it's worth spending another $50 on a second device.
+I'm happy with the YubiKey Edge so far. At $30 it's hard not to be. But I have been wondering if I should've gone with the NEO. While I don't care for the NFC support I have thought about uses for the OpenPGP support. The NEO also appears to have less limitations when it comes to OATH/HOTP/TOTP. Since it has better integration with OATH/HOTP/TOTP and YubiKey Authenticator you're apparently not limited to slot 1 and slot 2. I haven't looked into this fully so I may be wrong. But it's something I want to check out and see if it's worth spending another $50 on a second device.
 
 The YubiKey Edge wouldn't be a complete sunk cost as Yubico recommends you buy two devices anyway. With two, you can configure the second with some of the same features (or all of the same features if the devices are identical) so you have a backup if you lose your original YubiKey or it gets damaged. The latter is unlikely given the devices are defined by Yubico as `crushproof, waterproof, monoblock design, and no battery`.
 
